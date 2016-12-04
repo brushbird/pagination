@@ -1,0 +1,132 @@
+#pagination{
+	clear:both;
+	color:#9b9b9b;
+	padding:5px 0px 5px 0px;
+	font-size:13px;
+}
+#pagination a{
+	float: left;
+/*	border: 0px solid #ccc;*/
+	display: inline;
+	padding: 3px 10px 3px 10px;
+	margin-right: 5px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	cursor: pointer;
+	background: #fff;
+	text-decoration:none;
+	color:#9b9b9b;
+}
+
+#pagination span.disabled,a.strPrv,a.strNext{
+	float: left;
+	display: inline;
+	padding: 3px 10px 3px 10px;
+	margin-right: 5px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border:1px solid #DFDFDF;
+	background-color:#FFF;
+	color:#DFDFDF;
+}
+#pagination a.strPrv:hover,a.strNext:hover{
+    color: #5453e6;
+}
+#pagination span.curr{
+	float: left;
+/*	border: 1px solid #31ACE2;*/
+	display: inline;
+	padding: 3px 10px 3px 10px;
+	margin-right: 5px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+/*	background: #F0FDFF;*/
+	color: #5453e6;
+}
+#pagination a:hover{
+/*	border:0px solid #31ACE2; */
+/*	background-color:#5453e6; */
+	color:#5453e6;
+}
+#pagination span.normalsize{
+}
+#pagination_gopage_wrap{
+	position:relative;
+	left:0px;
+	top:0px;
+    
+}
+#pagination_btn_go {
+	width:44px;
+	height:24px;
+	border:1px solid #cdcdcd;
+	overflow:hidden;
+	line-height:140%;
+	padding: 3px 10px 3px 10px;
+	margin:0px;
+	text-align:center;
+	cursor:pointer;
+	background-color:#fff;
+	color:#9b9b9b;
+	position:absolute;
+	left:40px;
+/*	top:-2px;*/
+	-moz-border-radius:0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;
+/*	display:none;*/
+}
+#pagination_btn_go:hover{
+    border:1px solid #6d7dfa;
+    background-color:#6d7dfa;
+	color:#fff;
+}
+#pagination_btn_go:active{
+    background-color:#5453e6;
+	color:#fff;
+}
+.btnfocus{
+    background-color:#6d7dfa;
+	color:#fff;
+}
+#pagination_btn_go_input{
+	width:44px;
+	height:20px;    
+	color:#999;
+	text-align:center;
+	margin-left:1px;
+	margin-right:1px;
+	border:1px solid #DFDFDF;
+	position:relative;
+	-moz-border-radius: 3px 0 0 3px;
+	-webkit-border-radius:3px 0 0 3px;
+	left:0px;
+	top:0px;
+	outline:none;
+}
+
+#pagination_btn_go_input.focus{
+	border-color:#6d7dfa;
+}
+
+#pagination .pageBtnWrap{
+	float:left;
+    margin-left: 50px;
+}
+#pagination .infoTextAndGoPageBtnWrap{
+	float:left;
+}
+#pagination .spanDot{
+	float:left;
+	margin-right:5px;
+}
+
+#pagination .currPageNum{
+	color:#FD7F4D;
+}
+
+#pagination .infoTextAndGoPageBtnWrap{
+/*	padding-top:5px;*/
+}
